@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: Arial;
-    border: border-box;
+    box-sizing: border-box;
 }
 body{
     background-color: #e9e1e1;
 }
+/* navbar starts */
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -138,7 +139,7 @@ body{
 .navcart i{
     font-size: 26px;
 }
-
+/* navbar ends  */
 /* menu starts  */
 .menu{
     height: 39px;
@@ -186,17 +187,17 @@ body{
 
 /* hero section starts */
 .herosection{
-    height: 600px;
+    height: 300px;
     /* width: 1500px; */
     background-image: url("/Heroimg.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 #herocontent{
     width: 1281px;
-    height: 20px;
+    height: 40px;
     padding: 10px 14px 10px 14px ;
     background-color: #f5f6f6;
     text-align: center;
@@ -217,7 +218,7 @@ body{
     flex-wrap: wrap;
     row-gap: 1.3rem;
     position: relative;
-    bottom: 280px;
+    /* bottom: 280px; */
 }
 .box{
     height: 400px;
@@ -243,4 +244,48 @@ body{
     margin: 10px;
 }
 /* content ends  */
+/* footer starts */
+footer{
+    margin-top: 1rem;
+    border-top: 1px solid #c2bcbc ;
+}
+.panel1{
+    height: 45px;
+    background-color: #141b23;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 1rem;
+}
+.panel2{
+    font-size: 16px;
+    background-color: #232f3e;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.3rem;
+}
+.panel2 ul{
+    font-size: 14px;
+    padding: 2px;
+    list-style-type: none;
+}
+.panel2 a{
+    padding: 3px;
+    display: block;
+}
+.panel3{
+    height: 81px;
+    font-size: 12px;
+    background-color: #131a22;
+    text-align: center;
+    padding: 1rem;
+}
+.panel3 a{
+    text-decoration: none;
+    color: #dddddd;
+    margin: 3px;
+}
+ /* footer ends  */
 
