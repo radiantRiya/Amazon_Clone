@@ -4,6 +4,9 @@
     font-family: Arial;
     border: border-box;
 }
+body{
+    background-color: #e9e1e1;
+}
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -206,5 +209,38 @@
     text-decoration: none;
     color: #007185;
 }
-
+/* hero section ends  */
+/* content starts  */
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 1.3rem;
+    position: relative;
+    bottom: 280px;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.boxcontent{
+    padding: 20px;
+}
+#p1box{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 10px 10px 10px;
+}
+#boximage{
+    height: 300px;
+    margin: 10px;
+    background-size: cover;
+}
+#p2box{
+    font-size: 13px;
+    color: #007185;
+    margin: 10px;
+}
+/* content ends  */
 
